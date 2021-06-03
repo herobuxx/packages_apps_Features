@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="123dp"
+                android:height="125dp"/>
+        </shape>
+    </item>
+    <item android:gravity="top">
+        <layer-list>
+            <item android:gravity="left">
+                <layer-list>
+                    <item>
+                        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+                            android:height="44dp"
+                            android:width="44dp"
+                            android:color="?android:attr/colorAccent"/>
+                    </item>
+                    <item android:drawable="@drawable/ic_preview_wifi"
+                        android:width="26.4dp"
+                        android:height="26.4dp"
+                        android:gravity="center"/>
+                </layer-list>
+            </item>
+            <item android:gravity="right">
+                <layer-list>
+                    <item>
+                        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+                            android:height="44dp"
+                            android:width="44dp"
+                            android:color="?android:attr/colorAccent"/>
+                    </item>
+                    <item android:drawable="@drawable/ic_preview_bluetooth"
+                        android:width="26.4dp"
+                        android:height="26.4dp"
+                        android:gravity="center"/>
+                </layer-list>
+            </item>
+        </layer-list>
+    </item>
+    <item android:gravity="bottom">
+        <layer-list>
+            <item android:gravity="left">
+                <layer-list>
+                    <item>
+                        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+                            android:height="44dp"
+                            android:width="44dp"
+                            android:color="?android:attr/colorAccent"/>
+                    </item>
+                    <item android:drawable="@drawable/ic_preview_data"
+                        android:width="26.4dp"
+                        android:height="26.4dp"
+                        android:gravity="center"/>
+                </layer-list>
+            </item>
+            <item android:gravity="right">
+                <layer-list>
+                    <item>
+                        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
+                            android:height="44dp"
+                            android:width="44dp"
+                            android:color="?android:attr/colorAccent"/>
+                    </item>
+                    <item android:drawable="@drawable/ic_preview_airplane"
+                        android:width="26.4dp"
+                        android:height="26.4dp"
+                        android:gravity="center"/>
+                </layer-list>
+            </item>
+        </layer-list>
+    </item>
+</layer-list>

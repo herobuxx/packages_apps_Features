@@ -108,4 +108,19 @@
     <string name="battery_percentage_off">Hidden</string>
     <string name="battery_percentage_inside_icon">Inside battery icon</string>
     <string name="battery_percentage_outside_icon">Outside battery icon</string>
+	
+    <!-- Themer -->
+    <string name="theme_title">Themer</string>
+    <string name="theme_accent_color_title">Accent color</string>
+    <string name="theme_font_title">Font</string>
+    <string name="theme_icon_shape_title">Icon shape</string>
+    <string name="theme_icon_pack_title">Icon pack</string>
+
+    <!-- Lockscreen Clocks -->
+    <string name="theme_clock_face_title">Lockscreen clock style</string>
+    <string name="theme_clock_face_default">Default</string>
+    <string name="theme_clock_face_analog">Analog</string>
+    <string name="theme_clock_face_bubble">Bubble</string>
+    <string name="theme_clock_face_typographic">Typographic</string>
+
 </resources>

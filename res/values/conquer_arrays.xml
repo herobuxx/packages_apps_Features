@@ -40,4 +40,18 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- Lockscreen Clock -->
+    <string-array name="theme_clock_face_entries" translatable="false">
+        <item>@string/theme_clock_face_default</item>
+        <item>@string/theme_clock_face_analog</item>
+        <item>@string/theme_clock_face_bubble</item>
+        <item>@string/theme_clock_face_typographic</item>
+    </string-array>
+    <string-array name="theme_clock_face_values" translatable="false">
+        <item>com.android.keyguard.clock.DefaultClockController</item>
+        <item>com.android.keyguard.clock.AnalogClockController</item>
+        <item>com.android.keyguard.clock.BubbleClockController</item>
+        <item>com.android.keyguard.clock.TypeClockController</item>
+    </string-array>
 </resources>
