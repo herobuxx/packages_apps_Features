@@ -16,21 +16,29 @@
 <PreferenceScreen 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/settings_title" >
+    android:title=" " >
+
+    <!-- Title Header -->
+    <Preference
+        android:layout="@layout/features_title_header"
+		android:text="@string/settings_title"
+        android:selectable="false"/>
 
         <!-- Getures -->
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:summary="@string/gestures_summary"
+            android:layout="@layout/custom_card_pref"
             android:fragment="com.conquer.settings.fragments.Gestures"
-            android:icon="@drawable/ic_settings_gestures"/>
+            android:icon="@drawable/ic_settings_gesture"/>
 
         <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:summary="@string/statusbar_summary"
+            android:layout="@layout/custom_card_pref"
             android:fragment="com.conquer.settings.fragments.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
@@ -39,6 +47,7 @@
             android:key="ockscreen_category"
             android:title="@string/lockscreen_title" 
             android:summary="@string/lockscreen_summary"
+            android:layout="@layout/custom_card_pref"
             android:fragment="com.conquer.settings.fragments.Lockscreen"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
