@@ -123,4 +123,8 @@
     <string name="theme_clock_face_bubble">Bubble</string>
     <string name="theme_clock_face_typographic">Typographic</string>
 
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+
 </resources>
