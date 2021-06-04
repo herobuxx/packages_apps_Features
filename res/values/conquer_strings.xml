@@ -122,6 +122,9 @@
     <string name="theme_clock_face_analog">Analog</string>
     <string name="theme_clock_face_bubble">Bubble</string>
     <string name="theme_clock_face_typographic">Typographic</string>
+    <string name="theme_clock_face_404_ide">404 IDE</string>
+    <string name="theme_clock_face_404_sammy">404 Sammy</string>
+    <string name="theme_clock_face_shapeshift">Shapeshift</string>
 
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Hide lock icon</string>
