@@ -12,13 +12,13 @@
                 <layer-list>
                     <item>
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-                            android:height="44dp"
-                            android:width="44dp"
-                            android:color="?android:attr/colorAccent"/>
+                            android:height="52dp"
+                            android:width="52dp"
+                            android:color="@color/preview_shape_bg"/>
                     </item>
                     <item android:drawable="@drawable/ic_preview_wifi"
-                        android:width="26.4dp"
-                        android:height="26.4dp"
+                        android:width="24dp"
+                        android:height="24dp"
                         android:gravity="center"/>
                 </layer-list>
             </item>
@@ -26,13 +26,13 @@
                 <layer-list>
                     <item>
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-                            android:height="44dp"
-                            android:width="44dp"
-                            android:color="?android:attr/colorAccent"/>
+                            android:height="52dp"
+                            android:width="52dp"
+                            android:color="@color/preview_shape_bg"/>
                     </item>
-                    <item android:drawable="@drawable/ic_preview_bluetooth"
-                        android:width="26.4dp"
-                        android:height="26.4dp"
+                    <item android:drawable="@drawable/ic_preview_auto_rotate"
+                        android:width="24dp"
+                        android:height="24dp"
                         android:gravity="center"/>
                 </layer-list>
             </item>
@@ -44,13 +44,13 @@
                 <layer-list>
                     <item>
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-                            android:height="44dp"
-                            android:width="44dp"
-                            android:color="?android:attr/colorAccent"/>
+                            android:height="52dp"
+                            android:width="52dp"
+                            android:color="@color/preview_shape_bg"/>
                     </item>
-                    <item android:drawable="@drawable/ic_preview_data"
-                        android:width="26.4dp"
-                        android:height="26.4dp"
+                    <item android:drawable="@drawable/ic_preview_flashlight"
+                        android:width="24dp"
+                        android:height="24dp"
                         android:gravity="center"/>
                 </layer-list>
             </item>
@@ -58,13 +58,13 @@
                 <layer-list>
                     <item>
                         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-                            android:height="44dp"
-                            android:width="44dp"
-                            android:color="?android:attr/colorAccent"/>
+                            android:height="52dp"
+                            android:width="52dp"
+                            android:color="@color/preview_shape_bg"/>
                     </item>
                     <item android:drawable="@drawable/ic_preview_airplane"
-                        android:width="26.4dp"
-                        android:height="26.4dp"
+                        android:width="24dp"
+                        android:height="24dp"
                         android:gravity="center"/>
                 </layer-list>
             </item>

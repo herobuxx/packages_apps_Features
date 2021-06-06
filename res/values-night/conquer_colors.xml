@@ -12,8 +12,9 @@
 -->
 
 <resources>
-
-        <!-- Preview Icons -->
-        <color name="preview_container_border">#14FFFFFF</color>
-        <color name="preview_qs_disabled">#353535</color>
+   <!-- Preview Icons -->
+   <color name="preview_container_border">#14FFFFFF</color>
+   <color name="preview_qs_disabled">#353535</color>
+   <color name="preview_shape_bg">#91C4FF</color>
+   <color name="preview_shape_icon">#000000</color>
 </resources>

@@ -23,5 +23,6 @@
     <color name="preview_container_border">#ECECEC</color>
     <color name="preview_qs_disabled">#DCDCDC</color>
     <color name="preview_qs_enabled">?android:attr/colorAccent</color>
-
+    <color name="preview_shape_bg">#64ACFF</color>
+    <color name="preview_shape_icon">#FFFFFF</color>
 </resources>
